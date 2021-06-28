@@ -2,7 +2,7 @@ import { Entity, CreateDateColumn, UpdateDateColumn, PrimaryColumn, Column, Join
 import { Responsavel } from './Responsavel';
 import { v4 as uuid } from 'uuid'
 
-@Entity("despesas")
+@Entity("despesa")
 class Despesa {
 
   @PrimaryColumn()
